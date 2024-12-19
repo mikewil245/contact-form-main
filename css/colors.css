@@ -1,0 +1,8 @@
+:root {
+  --Green20Lighter: rgb(223, 241, 231);
+  --Green600Medium: rgb(12, 125, 105);
+  --Red: hsl(0, 66%, 54%);
+  --White: hsl(0, 0%, 100%);
+  --Grey500Medium: hsl(186, 15%, 59%);
+  --Grey900Darker: rgb(43, 66, 70);
+}

@@ -1,0 +1,84 @@
+@font-face {
+  font-family: "karla-Bold";
+  src: url("../assets/fonts/static/Karla-Bold.ttf") format("truetype");
+  font-weight: bold; /* Change to 'bold' */
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "karla-reg";
+  src: url("../assets/fonts/static/Karla-Regular.ttf") format("truetype");
+  font-weight: 400; /* Change to 'bold' */
+  font-style: normal;
+}
+
+body {
+  font-family: "karla-reg", sans-serif;
+}
+
+header .header-title {
+  /* heading */
+  color: var(--Grey900Darker);
+  font-family: "Karla-bold";
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 100%;
+  letter-spacing: -0.06rem;
+}
+
+#contact-form label {
+  color: var(--Grey900Darker);
+  font-family: "Karla-reg";
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 150%;
+  letter-spacing: 0%;
+}
+
+#contact-form span {
+  color: var(--Green600Medium);
+}
+
+#contact-form .radio-group label {
+  font-size: 1.13rem;
+  font-weight: 400;
+  line-height: 150%;
+  letter-spacing: 0%;
+}
+
+#contact-form button {
+  background-color: var(--Green600Medium);
+  border: none;
+  color: rgb(255, 255, 255);
+  font-family: "Karla-bold";
+  font-size: 1.13rem;
+  font-weight: 700;
+  line-height: 150%;
+  letter-spacing: 0%;
+}
+
+#contact-form textarea {
+  border-color: var(--Grey500Medium);
+}
+
+#contact-form .error-message {
+  display: none;
+  color: red;
+  font-size: 0.8rem;
+}
+
+.success-container .success-heading {
+  font-family: "karla-bold";
+  font-size: 1.13rem;
+  font-weight: 700;
+  line-height: 150%;
+  letter-spacing: 0%;
+}
+
+.success-container .success-description {
+  font-family: "karla-reg";
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 150%;
+  letter-spacing: 0%;
+}
